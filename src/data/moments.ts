@@ -91,19 +91,6 @@ export const moments: Moment[] = [
     ],
   },
   {
-    id: "codex",
-    event: "OpenAI Codex Event",
-    category: "AI Events",
-    description:
-      "Attended the OpenAI Codex community event, exploring the latest in AI coding tools and developer workflows.",
-    images: [
-      { src: "/images/moments/codex-1.jpg", alt: "OpenAI Codex Event" },
-      { src: "/images/moments/codex-2.jpg", alt: "OpenAI Codex Event — session" },
-      { src: "/images/moments/codex-3.jpg", alt: "OpenAI Codex Event — community" },
-      { src: "/images/moments/codex-4.jpg", alt: "OpenAI Codex Event — group" },
-    ],
-  },
-  {
     id: "techfest",
     event: "Techfest 2025 — IIT Bombay",
     category: "Community",
@@ -114,6 +101,19 @@ export const moments: Moment[] = [
       { src: "/images/moments/techfest-3.jpg", alt: "Techfest IIT Bombay — campus" },
       { src: "/images/moments/techfest-1.jpg", alt: "Techfest IIT Bombay — workshop" },
       { src: "/images/moments/techfest-2.jpg", alt: "Techfest IIT Bombay — Google AI house" },
+    ],
+  },
+  {
+    id: "codex",
+    event: "OpenAI Codex Event",
+    category: "AI Events",
+    description:
+      "Attended the OpenAI Codex community event, exploring the latest in AI coding tools and developer workflows.",
+    images: [
+      { src: "/images/moments/codex-1.jpg", alt: "OpenAI Codex Event" },
+      { src: "/images/moments/codex-2.jpg", alt: "OpenAI Codex Event — session" },
+      { src: "/images/moments/codex-3.jpg", alt: "OpenAI Codex Event — community" },
+      { src: "/images/moments/codex-4.jpg", alt: "OpenAI Codex Event — group" },
     ],
   },
   {
