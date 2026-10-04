@@ -1,5 +1,7 @@
 # Raw source materials — serving copies live in public/
-Moments
-Project Demo Videos
-Resume
-EVENTS INFO.pdf
+# (leading slashes anchor to repo root so public/images/moments
+# and public/resume still deploy)
+/Moments/
+/Project Demo Videos/
+/Resume/
+/EVENTS INFO.pdf
