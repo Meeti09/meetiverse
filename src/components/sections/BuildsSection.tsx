@@ -6,8 +6,9 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { projects } from "@/data/projects";
 
 export function BuildsSection() {
-  const featured = projects.filter((p) => p.featured);
-  const more = projects.filter((p) => !p.featured);
+  const visible = projects.filter((p) => !p.hidden);
+  const featured = visible.filter((p) => p.featured);
+  const more = visible.filter((p) => !p.featured);
 
   return (
     <section id="builds" className="py-24 md:py-36 bg-surface/60">

@@ -11,6 +11,7 @@ export interface Project {
   videoSrc?: string;
   videoPoster?: string;
   featured: boolean;
+  hidden?: boolean;
   context?: string;
   achievement?: string;
 }
@@ -46,15 +47,16 @@ export const projects: Project[] = [
     name: "Mumbai Builds",
     tagline: "Build What Matters.",
     description:
-      "Organizer of the Mumbai-wide student innovation platform and 36-hour hybrid hackathon. Built and deployed the landing site connecting promising builders with industry, technology, mentors and real-world problems.",
+      "Organizer of the Mumbai-wide student innovation platform and 36-hour hybrid hackathon. Built and deployed the landing site connecting promising builders with industry, mentors and real-world problems.",
     technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "GSAP"],
     liveUrl: "https://www.mumbaibuilds.tech/",
     image: "/images/mumbaibuilds.png",
     featured: true,
+    hidden: true,
   },
   {
     id: "human-yield",
-    number: "04",
+    number: "03",
     name: "HumanYield",
     tagline: "Consumer Income Share Agreements on-chain.",
     description:
@@ -74,7 +76,7 @@ export const projects: Project[] = [
   },
   {
     id: "kumbh-guardian",
-    number: "05",
+    number: "04",
     name: "Kumbh Guardian",
     tagline: "Offline-first AI for missing-person assistance.",
     description:
@@ -86,7 +88,7 @@ export const projects: Project[] = [
   },
   {
     id: "goalpay",
-    number: "06",
+    number: "05",
     name: "GoalPay",
     tagline: "Decentralized savings goal tracker.",
     description:
